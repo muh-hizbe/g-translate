@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "bun-react-template",
+      "name": "g-translate",
       "dependencies": {
         "google-translate-api-x": "^10.7.3",
         "react": "^19",
