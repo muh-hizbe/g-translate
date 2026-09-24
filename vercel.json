@@ -1,0 +1,11 @@
+{
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/translate/batch", "destination": "/api/translate/batch" },
+    { "source": "/api/translate/map",   "destination": "/api/translate/map"   },
+    { "source": "/api/translate",       "destination": "/api/translate"       },
+    { "source": "/api/speak",           "destination": "/api/speak"           },
+    { "source": "/(.*)",                "destination": "/index.html"          }
+  ]
+}
